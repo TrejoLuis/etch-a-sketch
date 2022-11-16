@@ -1,0 +1,76 @@
+/* colors
+Beige = #F2DEBA;
+lightbeige = #FFEFD6
+blue = #0E5E6F
+lightblue = #3A8891
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Silkscreen', 'cursive';
+
+}
+
+body {
+  background-color: #FFEFD6;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+header {
+  padding: 5px;
+  text-align: center;
+  color: #0E5E6F;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+}
+
+footer {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  color: #0E5E6F;
+}
+
+#grid-container {
+  border: #3A8891 solid 20px;
+  /* width: 50vw;
+  height: 50vh; */
+  width: 500px;
+  height: 500px;
+  display: grid;
+  /* grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr); */
+  column-gap: 1px;
+  row-gap: 1px;
+}
+
+button {
+  background-color: #3A8891;
+  color: #F2DEBA;
+  border: none;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+button:hover {
+  color: #F2DEBA;
+  background-color: #0E5E6F;
+}
+
+button:active {
+  background-color: #F2DEBA;
+  color: #0E5E6F;
+}
